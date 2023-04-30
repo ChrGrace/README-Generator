@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "To create README files via Inquirer for the week 9 assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrGrace/README-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrGrace/README-Generator/issues"
+  },
+  "homepage": "https://github.com/ChrGrace/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
