@@ -36,3 +36,7 @@ By using this README generator for your own projects!
 ## Questions
 If you like to see other projects I've worked on checkout my Github:[ChrGrace](https://github.com/ChrGrace)
 
+## Video Walkthrough
+Here is the link to the video walkthrough;
+https://drive.google.com/file/d/1jQMDb71yZ4euyNQwvLxe5bVgGhZE3JmL/view
+
