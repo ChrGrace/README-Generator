@@ -31,9 +31,15 @@ const questions = [
     },
 
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'What license are you using?',
+        choices: [
+            'MIT',
+            'Apache',
+            'GPL',
+            'None',
+        ]
     },
 
     {
@@ -73,7 +79,7 @@ function init() {
     inquirer.prompt(questions).then((data) => {
         const markdown = generateMarkdown(data);
         console.log(data);
-        writeToFile("README(sample).md", markdown);
+        writeToFile("README.md", markdown);
     });
 }
 
